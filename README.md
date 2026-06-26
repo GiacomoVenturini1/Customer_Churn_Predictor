@@ -16,4 +16,8 @@ The project utilizes synthetic customer data modeled after the public Telco Chur
 ## How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/customer-churn-predictor.git](https://github.com/YOUR_USERNAME/customer-churn-predictor.git)
+   git clone https://github.com/GiacomoVenturini1/Customer_Churn_Predictor.git
+   cd Customer_Churn_Predictor
+   pip install -r requirements.txt
+   python churn_model.py
+   ```
