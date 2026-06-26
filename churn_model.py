@@ -107,7 +107,7 @@ feature_names = numeric_features + encoded_cat_features
 coefficients = model.coef_[0]
 
 plt.figure(figsize=(8, 5))
-sns.barplot(x=coefficients, y=feature_names, palette='coolwarm')
+sns.barplot(x=coefficients, y=feature_names, hue=feature_names, palette='coolwarm')
 plt.title('Logistic Regression Feature Coefficients (Importance)')
 plt.xlabel('Coefficient Value')
 plt.ylabel('Features')
