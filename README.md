@@ -19,12 +19,14 @@ dataset, capturing key customer attributes:
 
 ## Repository Structure
 
+```
 Customer_Churn_Predictor/
 ├── churn_model.py        # Standalone pipeline script
 ├── churn_analysis.ipynb  # EDA + step-by-step notebook
 ├── requirements.txt
 ├── README.md
 └── images/               # Generated plots (created on first run)
+```
 
 ## Tech Stack & Libraries
 
