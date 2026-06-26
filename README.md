@@ -1,6 +1,6 @@
 # Customer Churn Prediction Pipeline
 
-This repository contains a Machine Learning pipeline built in Python to predict telecom customer churn using **Logistic Regression**. The model achieves an **81% accuracy** rating, allowing businesses to proactively target at-risk users with retention strategies.
+This repository contains a Machine Learning pipeline built in Python to predict telecom customer churn using **Logistic Regression**. The model achieves an **79% accuracy** rating, allowing businesses to proactively target at-risk users with retention strategies.
 
 ## Dataset Overview
 The project utilizes synthetic customer data modeled after the public Telco Churn dataset, capturing key customer attributes:
